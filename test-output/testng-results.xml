@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-31T11:45:49 IST" name="Suite" finished-at="2023-07-31T11:46:53 IST" duration-ms="64490">
+    <groups>
+    </groups>
+    <test started-at="2023-07-31T11:45:49 IST" name="Open Frontend" finished-at="2023-07-31T11:46:21 IST" duration-ms="32006">
+      <class name="Frontend_Testcases.OpenFrontend">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.OpenFrontend@793f29ff]" started-at="2023-07-31T11:45:49 IST" name="beforeTest" finished-at="2023-07-31T11:45:49 IST" duration-ms="584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a89414e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.OpenFrontend@793f29ff]" started-at="2023-07-31T11:45:49 IST" name="beforeMethod" finished-at="2023-07-31T11:45:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a89414e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openFrontend()[pri:0, instance:Frontend_Testcases.OpenFrontend@793f29ff]" started-at="2023-07-31T11:45:49 IST" name="openFrontend" finished-at="2023-07-31T11:46:19 IST" duration-ms="29626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFrontend -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.OpenFrontend@793f29ff]" started-at="2023-07-31T11:46:19 IST" name="afterTest" finished-at="2023-07-31T11:46:21 IST" duration-ms="1693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a89414e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Frontend_Testcases.OpenFrontend -->
+    </test> <!-- Open Frontend -->
+    <test started-at="2023-07-31T11:46:21 IST" name="Search Product Valid" finished-at="2023-07-31T11:46:40 IST" duration-ms="18788">
+      <class name="Frontend_Testcases.SearchProduct">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.SearchProduct@5032714f]" started-at="2023-07-31T11:46:21 IST" name="beforeTest" finished-at="2023-07-31T11:46:21 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c4714ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.SearchProduct@5032714f]" started-at="2023-07-31T11:46:21 IST" name="beforeMethod" finished-at="2023-07-31T11:46:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c4714ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchProductInvalid()[pri:1, instance:Frontend_Testcases.SearchProduct@5032714f]" started-at="2023-07-31T11:46:21 IST" name="searchProductInvalid" finished-at="2023-07-31T11:46:39 IST" duration-ms="18630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductInvalid -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.SearchProduct@5032714f]" started-at="2023-07-31T11:46:39 IST" name="afterTest" finished-at="2023-07-31T11:46:40 IST" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c4714ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Frontend_Testcases.SearchProduct -->
+    </test> <!-- Search Product Valid -->
+    <test started-at="2023-07-31T11:46:40 IST" name="Search Product Invalid" finished-at="2023-07-31T11:46:53 IST" duration-ms="13599">
+      <class name="Frontend_Testcases.SearchProduct">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.SearchProduct@14028087]" started-at="2023-07-31T11:45:48 IST" name="beforeSuite" finished-at="2023-07-31T11:45:49 IST" duration-ms="521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c94bd18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.SearchProduct@14028087]" started-at="2023-07-31T11:46:40 IST" name="beforeTest" finished-at="2023-07-31T11:46:40 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c94bd18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.SearchProduct@14028087]" started-at="2023-07-31T11:46:40 IST" name="beforeMethod" finished-at="2023-07-31T11:46:40 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c94bd18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchProductValid()[pri:2, instance:Frontend_Testcases.SearchProduct@14028087]" started-at="2023-07-31T11:46:40 IST" name="searchProductValid" finished-at="2023-07-31T11:46:53 IST" duration-ms="13404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductValid -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.SearchProduct@14028087]" started-at="2023-07-31T11:46:53 IST" name="afterTest" finished-at="2023-07-31T11:46:53 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c94bd18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:Frontend_Testcases.SearchProduct@14028087]" started-at="2023-07-31T11:46:53 IST" name="afterSuite" finished-at="2023-07-31T11:46:54 IST" duration-ms="770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c94bd18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Frontend_Testcases.SearchProduct -->
+    </test> <!-- Search Product Invalid -->
+  </suite> <!-- Suite -->
+</testng-results>
